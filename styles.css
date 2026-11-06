@@ -20,3 +20,40 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 .seller-callout{margin-top:36px;padding:32px 39px;background:#e9dfd2;display:flex;align-items:center;justify-content:space-between;gap:30px}.seller-callout h3{font-family:var(--serif);font-size:24px;font-weight:500;margin:8px 0}.seller-callout p{font-size:11px;line-height:1.8;color:#746b72;margin:0}.seller-callout .btn{white-space:nowrap}.seller-dialog form#sellerForm{display:flex;flex-direction:column;gap:17px}.seller-dialog form#sellerForm label{display:flex;flex-direction:column;gap:8px;font-size:11px;font-weight:800;color:#514355}.seller-dialog :is(input,select,textarea){border:1px solid #e9e1db;background:#fff;padding:12px;width:100%;font-size:12px}.seller-dialog .form-two label{min-width:0}.seller-dialog .btn{align-self:flex-start}
 @media(max-width:650px){.seller-callout{padding:25px 20px;display:block}.seller-callout .btn{margin-top:20px}}
+
+/* 2026-11-06: enlarged Al Emarat masthead with responsive desktop/mobile sizing. */
+@media (min-width:1181px){
+  .nav-layout{height:95px}
+  .brand-symbol{width:68px;height:68px}
+  .brand-copy strong{font-size:29px;letter-spacing:1.45px;line-height:1.12}
+  .brand-copy small{font-size:10.5px;letter-spacing:2px;line-height:1.3}
+  .primary-nav{gap:22px}
+}
+@media (min-width:961px) and (max-width:1180px){
+  .brand-symbol{width:59px;height:59px}
+  .brand-copy strong{font-size:23px;letter-spacing:1.15px;line-height:1.12}
+  .brand-copy small{font-size:9px;letter-spacing:1.45px}
+  .primary-nav{gap:12px}
+  .nav-cta{padding:13px 11px}
+}
+@media (min-width:651px) and (max-width:960px){
+  .brand-symbol{width:61px;height:61px}
+  .brand-copy strong{font-size:25px;line-height:1.1}
+  .brand-copy small{font-size:9px;letter-spacing:1.5px}
+}
+@media (max-width:650px){
+  .brand-symbol{width:47px;height:47px}
+  .brand-copy strong{font-size:19px;letter-spacing:0.75px;line-height:1.1}
+  .brand-copy small{font-size:7.8px;letter-spacing:1.0px;line-height:1.25}
+  .nav-layout{gap:7px}
+  .brand,.footer-brand{gap:5px}
+  .nav-cta{margin-left:4px}
+}
+@media (max-width:390px){
+  .brand-symbol{width:42px;height:42px}
+  .brand-copy strong{font-size:17.5px}
+  .brand-copy small{font-size:7px;letter-spacing:.65px}
+  .nav-cta{padding:8px 9px}
+}
+/* Keeps the expanded society list neat, including multi-word project names. */
+.area-tags button{line-height:1.35}

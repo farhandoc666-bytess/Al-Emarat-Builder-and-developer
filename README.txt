@@ -60,3 +60,5 @@ assets/*.webp                          Compressed supplied photo and video still
 
 NOTE: Fonts load from Google Fonts when available. If offline, system
 font fallbacks will be used.
+
+Latest update: larger masthead, hero image reframed without third-party branding, and 4 additional location tags with dropdown options.
